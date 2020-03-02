@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <title>Rick & Morty!</title>
+  </head>
+  <body style="background-image: url('background.jpg');">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <a class="navbar-brand" href="#">Rick & Morty API</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#character">Characters</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#location">Locations</a>
+                    </li>
+                    <li class="nav-item">
+                            <a class="nav-link" href="#episode">Episodes</a>
+                          </li>
+                
+                  </ul>
+                </div>
+              </nav>
+
+
+
+    <div class="container" >
+      <div class="jumbotron" style="opacity: 0.95">
+        <div id="app"></div>
+      </div>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      data-main="js/app"
+      src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.5/require.min.js"
+    ></script>
+  </body>
+</html>
